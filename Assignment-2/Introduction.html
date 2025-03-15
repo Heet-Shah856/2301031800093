@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy Lessons</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        button {
+            background-color: #fff;
+            color: #000;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: url('data:image/png;base64,...'); /* Replace with a starry background image */
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="stars"></div>
+    <h1>Interactive Astronomy Lessons</h1>
+    <p>Learn about Celestial bodies</p>
+    <button onclick="alert('Exploring...')">Start Exploring</button>
+</body>
+</html>
